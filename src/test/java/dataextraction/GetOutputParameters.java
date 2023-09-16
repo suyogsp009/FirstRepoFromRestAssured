@@ -3,11 +3,13 @@ package dataextraction;
 import static io.restassured.RestAssured.given;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
+import io.restassured.http.Cookies;
 import io.restassured.http.Header;
 import io.restassured.http.Headers;
 import io.restassured.response.Response;
@@ -59,6 +61,16 @@ System.out.println(listOfHeaders);
 String value = response.getHeader("Content-Type");
 
 System.out.println(value);
+
+
+String statusline = response.getStatusLine();// this method provides the status line of the communication that comprises of http call, handshake mechanism used and status code with message
+
+System.out.println("status line is :"+statusline);
+
+
+String responseContent = response.getContentType();// this method to fetch the content type of the response received
+
+System.out.println(responseContent);
 
 	
 	}
