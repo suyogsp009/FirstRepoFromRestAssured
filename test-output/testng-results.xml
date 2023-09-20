@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-16T08:29:58 IST" name="Default suite" finished-at="2023-09-16T08:30:01 IST" duration-ms="3498">
+  <suite started-at="2023-09-20T08:31:54 IST" name="Default suite" finished-at="2023-09-20T08:32:03 IST" duration-ms="9399">
     <groups>
     </groups>
-    <test started-at="2023-09-16T08:29:58 IST" name="Default test" finished-at="2023-09-16T08:30:01 IST" duration-ms="3498">
-      <class name="dataextraction.ExtractDataFromReadyMadeJson">
-        <test-method signature="fetchDataFromJson()[pri:0, instance:dataextraction.ExtractDataFromReadyMadeJson@4a7f959b]" started-at="2023-09-16T08:29:58 IST" name="fetchDataFromJson" finished-at="2023-09-16T08:30:01 IST" duration-ms="3410" status="PASS">
+    <test started-at="2023-09-20T08:31:54 IST" name="Default test" finished-at="2023-09-20T08:32:03 IST" duration-ms="9399">
+      <class name="assertionsusage.Example1">
+        <test-method signature="assertWorkspace()[pri:0, instance:assertionsusage.Example1@4a7f959b]" started-at="2023-09-20T08:31:54 IST" name="assertWorkspace" finished-at="2023-09-20T08:32:03 IST" duration-ms="9130" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fetchDataFromJson -->
-      </class> <!-- dataextraction.ExtractDataFromReadyMadeJson -->
+        </test-method> <!-- assertWorkspace -->
+      </class> <!-- assertionsusage.Example1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
