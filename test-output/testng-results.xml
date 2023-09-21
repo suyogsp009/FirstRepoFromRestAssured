@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-20T08:31:54 IST" name="Default suite" finished-at="2023-09-20T08:32:03 IST" duration-ms="9399">
+  <suite started-at="2023-09-21T07:26:27 IST" name="Default suite" finished-at="2023-09-21T07:26:34 IST" duration-ms="6644">
     <groups>
     </groups>
-    <test started-at="2023-09-20T08:31:54 IST" name="Default test" finished-at="2023-09-20T08:32:03 IST" duration-ms="9399">
-      <class name="assertionsusage.Example1">
-        <test-method signature="assertWorkspace()[pri:0, instance:assertionsusage.Example1@4a7f959b]" started-at="2023-09-20T08:31:54 IST" name="assertWorkspace" finished-at="2023-09-20T08:32:03 IST" duration-ms="9130" status="PASS">
+    <test started-at="2023-09-21T07:26:27 IST" name="Default test" finished-at="2023-09-21T07:26:34 IST" duration-ms="6644">
+      <class name="serializationanddeserialization.SendingBodyFromOtherClass">
+        <test-method signature="createUser()[pri:0, instance:serializationanddeserialization.SendingBodyFromOtherClass@4a7f959b]" started-at="2023-09-21T07:26:27 IST" name="createUser" finished-at="2023-09-21T07:26:34 IST" duration-ms="6501" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- assertWorkspace -->
-      </class> <!-- assertionsusage.Example1 -->
+        </test-method> <!-- createUser -->
+      </class> <!-- serializationanddeserialization.SendingBodyFromOtherClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
