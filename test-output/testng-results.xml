@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-21T07:26:27 IST" name="Default suite" finished-at="2023-09-21T07:26:34 IST" duration-ms="6644">
+  <suite started-at="2023-09-22T08:13:34 IST" name="Default suite" finished-at="2023-09-22T08:13:40 IST" duration-ms="6080">
     <groups>
     </groups>
-    <test started-at="2023-09-21T07:26:27 IST" name="Default test" finished-at="2023-09-21T07:26:34 IST" duration-ms="6644">
-      <class name="serializationanddeserialization.SendingBodyFromOtherClass">
-        <test-method signature="createUser()[pri:0, instance:serializationanddeserialization.SendingBodyFromOtherClass@4a7f959b]" started-at="2023-09-21T07:26:27 IST" name="createUser" finished-at="2023-09-21T07:26:34 IST" duration-ms="6501" status="PASS">
+    <test started-at="2023-09-22T08:13:34 IST" name="Default test" finished-at="2023-09-22T08:13:40 IST" duration-ms="6080">
+      <class name="serializationanddeserialization.GET_UserDetails">
+        <test-method signature="fetchUserDetails()[pri:0, instance:serializationanddeserialization.GET_UserDetails@32b260fa]" started-at="2023-09-22T08:13:34 IST" name="fetchUserDetails" finished-at="2023-09-22T08:13:40 IST" duration-ms="5982" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createUser -->
-      </class> <!-- serializationanddeserialization.SendingBodyFromOtherClass -->
+        </test-method> <!-- fetchUserDetails -->
+      </class> <!-- serializationanddeserialization.GET_UserDetails -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
