@@ -5,6 +5,8 @@
     <classes>
       <class name="ecom.POST_Login"/>
       <class name="ecom.POST_AddProduct"></class>
+       <class name="ecom.PlaceOrder"></class>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

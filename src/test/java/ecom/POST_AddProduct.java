@@ -7,6 +7,8 @@ import java.io.File;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
 
 public class POST_AddProduct extends BaseData{
 	
@@ -17,7 +19,7 @@ public class POST_AddProduct extends BaseData{
 		File file = new File(path);
 		RestAssured.baseURI = "https://rahulshettyacademy.com";
 				
-		given()
+	Response	resp = given()
 		.header("Authorization",tokenId)
 		.param("productName", "Levis shoes")
 		.param("productAddedBy", userId)
@@ -40,6 +42,14 @@ public class POST_AddProduct extends BaseData{
 		.extract()
 		
 		.response();
+	
+	JsonPath jp = resp.jsonPath();
+	
+	 prdId= jp.getString("productId");
+	
+
+		
+		
 		
 		
 		
