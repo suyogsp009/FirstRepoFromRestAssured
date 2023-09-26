@@ -50,8 +50,7 @@ public class RequestAndResponseSpecBuilder {
 	@Test
 	public void createUser()
 	{
-			given()
-					.spec(requestSpecification)
+			given(requestSpecification)
 			
 			.body("{\r\n"
 					+ "  \"id\": 0,\r\n"
